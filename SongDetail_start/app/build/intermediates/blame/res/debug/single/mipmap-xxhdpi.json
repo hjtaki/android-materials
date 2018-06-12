@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

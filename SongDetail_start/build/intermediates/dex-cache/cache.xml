@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3a47d6840820fdfb65dd021ced7d225e43f55bcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/morningclass/.android/build-cache/a3105c1cf9e39a7bb247ae5106abfebc4cd5cb6f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c390af22079a61fdc42712c19f15a700f1fc2cbf">
+        <dex dex="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f3a9f117501a8cc049b3b9047f728be7eb8946e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/morningclass/.android/build-cache/69c042da5f83f2bf3fb1f5ccfaff7b02c6139107/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56e96fa067ba358a6c60184e40947810dcd78f30">
+        <dex dex="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a205e33b4e5f4fd890e4620f0312ade7bf13d5b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="874b2c8c20ad27faba531b8f0f5ca616493bfb8b">
+        <dex dex="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_89b8669ec0b953f45fdafbe9de59a91826fa93d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/morningclass/.android/build-cache/e92bb20e3586a054a48855703b1564a959fd9e81/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
+        <dex dex="/Users/morningclass/AndroidStudioProjects/SongDetail_start/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e46ee9125cf624f23b31ad764460580f80f5acef/classes.dex" />
+    </item>
+
+</items>
