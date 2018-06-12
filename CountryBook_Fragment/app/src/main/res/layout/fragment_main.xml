@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorit contries"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <GridLayout
+                android:id="@+id/country_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:context=".MainActivity"
+                android:rowCount="4"
+                android:columnCount="3">
+
+                <ImageButton
+                    android:tag="canada"
+                    android:src="@drawable/canada"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <ImageButton
+                    android:tag="usa"
+                    android:src="@drawable/usa"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="italy"
+                    android:src="@drawable/italy"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="brazil"
+                    android:src="@drawable/brazil"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="mexico"
+                    android:src="@drawable/mexico"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="japan"
+                    android:src="@drawable/japan"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="korea"
+                    android:src="@drawable/korea"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="turkey"
+                    android:src="@drawable/turkey"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="tailand"
+                    android:src="@drawable/thailand"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageButton
+                    android:tag="china"
+                    android:src="@drawable/china"
+                    android:scaleType="fitCenter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+            </GridLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

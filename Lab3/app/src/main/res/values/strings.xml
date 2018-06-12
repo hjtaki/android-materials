@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="textview">TextView</string>
+    <array name="movieList">
+        <item>catch_me_if_you_can</item>
+        <item>flight_club</item>
+        <item>forrest_gump</item>
+        <item>good_will_hunting</item>
+        <item>pulp_fiction</item>
+        <item>god_father</item>
+        <item>the_hangover</item>
+        <item>the_shaw_shank_redemption</item>
+        <item>titanic</item>
+    </array>
+</resources>

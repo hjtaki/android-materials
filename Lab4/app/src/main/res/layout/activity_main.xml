@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite Movie"
+        android:textSize="25sp" />
+
+    <GridLayout
+        android:id="@+id/grid_movies"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/catch_me_if_you_can"
+            android:tag="catch_me_if_you_can" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/fight_club"
+            android:tag="fight_club" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/forrest_gump"
+            android:tag="forrest_gump" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/god_father"
+            android:tag="god_father" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/good_will_hunting"
+            android:tag="good_will_hunting" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/pulp_fiction"
+            android:tag="pulp_fiction" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/the_hangover"
+            android:tag="the_hangover" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/the_shaw_shank_redemption"
+            android:tag="the_shaw_shank_redemption" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/titanic"
+            android:tag="titanic" />
+
+
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/topTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/topLabel"/>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/tmnt">
+
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp" />
+
+    <RadioButton
+        android:id="@+id/rd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="leo" />
+
+    <RadioButton
+        android:id="@+id/rd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mich" />
+
+    <RadioButton
+        android:id="@+id/rd3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donatello" />
+
+    <RadioButton
+        android:id="@+id/rd4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raphael" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="138dp" />
+
+</LinearLayout>

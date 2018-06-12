@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LayoutExamples</string>
+    <string name="topLabel"> widget Ex </string>
+    <string name="topLabel2"> Hellow </string>
+
+    <string-array name="tmnt">
+        <item >Leo</item>
+        <item >Mich</item>
+        <item >Donatello</item>
+        <item >Raphael</item>
+    </string-array>
+</resources>
